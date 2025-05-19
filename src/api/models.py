@@ -69,4 +69,3 @@ class AuthResponse(ParamBaseModel):
 
 class ErrorResponse(ParamBaseModel):
         message: str = Field(..., description="Сообщение об ошибке API")
-
